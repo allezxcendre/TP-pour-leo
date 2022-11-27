@@ -59,7 +59,7 @@ $ netstat  -b -n -p udp -a | grep 62027 -A 1
   UDP    0.0.0.0:62027          *:*
  [System]
  ```
-[Steam](./capture_steam.pcapng)
+[Steam](./capture steam.pcapng)
 
 
 
