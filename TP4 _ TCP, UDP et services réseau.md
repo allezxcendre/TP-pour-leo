@@ -25,7 +25,10 @@
 - déterminez, pour chaque application :
   - IP et port du serveur auquel vous vous connectez
   - le port local que vous ouvrez pour vous connecter
+
+
   League Of Legend:
+  
 ```
   b@DESKTOP-0JKFI2T MINGW64 ~ (master)
 $ netstat  -b -n -p udp -a
@@ -34,7 +37,10 @@ $ netstat  -b -n -p udp -a
  [League of Legends.exe]
 ```
 [lol](./capture_lol.pcapng)
-Disord : 
+
+
+Discord : 
+
 ```
 b@DESKTOP-0JKFI2T MINGW64 ~ (master)
 $ netstat  -b -n -p udp -a
@@ -43,32 +49,44 @@ $ netstat  -b -n -p udp -a
  [Discord.exe]
 ```
 [discord](./capture_discord.pcapng)
-Rumbleverse : 
+
+
+Steam : 
+
 ```
 b@DESKTOP-0JKFI2T MINGW64 ~ (master)
 $ netstat  -b -n -p udp -a | grep 62027 -A 1
   UDP    0.0.0.0:62027          *:*
  [System]
  ```
-[rumbleverse](./capture_rumbleverse1.pcapng)
+[Steam](./capture_steam.pcapng)
 
-Assassin's creed :
+
+
+Roblox :
+
  ```
 b@DESKTOP-0JKFI2T MINGW64 ~ (master)
 $ netstat -b -n
 TCP    10.33.17.19:61476      96.16.122.82:443       CLOSE_WAIT
- [ACOrigins.exe]
+ [Roblox.exe]
 ```
 [roblox](./capture_roblox.pcapng)
 
+
+
 Overwatch:
+
 ```
 b@DESKTOP-0JKFI2T MINGW64 ~ (master)
 $ netstat  -b -n -p udp -a
   UDP    0.0.0.0:60720          *:*
  [Overwatch.exe]
 ```
+
+
 [overwatch](./capture_overwatch.pcapng)
+
 
 # II. Mise en place
 
