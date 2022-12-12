@@ -1,0 +1,11 @@
+[Unit]
+Description=Telechargement de videos YouTube
+
+[Service]
+ExecStart=/srv/yt/yt-v2.sh
+User=yt
+Restart=always
+RestartSec=20
+
+[Install]
+WantedBy=multi-user.target
